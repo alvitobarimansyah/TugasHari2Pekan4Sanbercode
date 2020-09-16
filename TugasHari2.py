@@ -55,8 +55,8 @@ fig.legend()
 ax.set_xlabel('K-value')
 ax.set_ylabel('Scores')
 ax.set_title('Accuracy : Uniform Scores vs Distance Scores')
-print('Uniform Scores :', list_uniform_score)
-print('Distance Scores :', list_distance_score)
+display('Uniform Scores :', list_uniform_score)
+display('Distance Scores :', list_distance_score)
 plt.show()
 
 # soal no 3
